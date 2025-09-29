@@ -34,6 +34,20 @@ theme:
         icon: material/brightness-4
         name: Switch to dark mode
 
+nav:
+  - Home: index.md
+  - Лекции:
+      - Лекция 1: 
+          - lectures/lecture_one/index.md
+          - lectures/lecture_one/analog_vs_digital.md
+          - lectures/lecture_one/alphabet_power.md
+          - lectures/lecture_one/measurement_confusion.md
+          - lectures/lecture_one/binary_encoding.md
+          - lectures/lecture_one/unique_decoding.md
+          - lectures/lecture_one/binary_arithmetic.md
+          - lectures/lecture_one/basic_logic_elements.md
+          - lectures/lecture_one/functional_completeness.md
+
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
