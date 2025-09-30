@@ -13,7 +13,7 @@ theme:
     - navigation.tabs
     - navigation.tracking
     - navigation.path
-    - navigation.indexes
+    # - navigation.indexes
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
